@@ -1,0 +1,9 @@
+
+PDOStatement Object
+(
+    [queryString] => SELECT `posts`.`title`, `posts`.`body` FROM `posts` LEFT JOIN `comments` ON `posts`.`id` = `comments`.`postId` WHERE `comments`.`body` LIKE '%laudanti%'
+)
+PDOStatement Object
+(
+    [queryString] => SELECT `posts`.`title`, `posts`.`body` FROM `posts` LEFT JOIN `comments` ON `posts`.`id` = `comments`.`postId` WHERE `comments`.`body` LIKE '%laudanti%'
+)
